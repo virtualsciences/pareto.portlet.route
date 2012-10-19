@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<portlets>
+
+ <portlet
+   addview="pareto.portlet.route.RoutePortlet"
+   title="Route Portlet"
+   description="Show a portlet with a location and the possibillity to get the route on Google maps"
+   />
+
+</portlets>

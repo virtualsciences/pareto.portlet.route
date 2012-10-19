@@ -1,0 +1,43 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      tal:omit-tag="">
+<dl class="portlet portletRoute"
+    tal:define="saddr request/saddr|nothing"
+    i18n:domain="arbounie.site">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <tal:title i18n:translate="">Route</tal:title>
+        <span class="portletTopRight"></span>
+    </dt>
+    
+    <dd class="portletItem">
+      <script src="http://maps.google.com/maps/api/js?libraries=places&sensor=false"></script>
+      <script src="/++theme++plonetheme.hartvoorjestad/js/route.js"
+              tal:attributes="src string:${context/portal_url}/route.js"></script>
+      <form id="addressform" action="http://maps.google.com/maps" target="_blank">
+          <div>
+              <input 
+                  name="daddr"
+                  type="hidden"
+                  tal:attributes="value view/data/daddr;" 
+                  />
+              <label i18n:translate="title_start_address"></label>
+              <input class="searchField inputLabel"
+                  name="saddr"
+                  type="text"
+                  size="19"
+                  i18n:attributes="value placeholder_start_address;"
+                  />
+              <input class="searchButton"
+                  type="submit"
+                  value="Plan"
+                  i18n:attributes="value label_plan;"/>
+          </div>
+      </form>
+      <div class="visualClear"><!-- --></div>
+    </dd>
+
+</dl>
+</html>
