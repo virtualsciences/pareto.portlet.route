@@ -7,6 +7,6 @@
         inline="False"/>
     <javascript authenticated="False" cacheable="True" compression="safe"
         conditionalcomment="" cookable="True" enabled="True"
-        expression="here/@@route/isAssigned"
-        id="++resource++route.js" inline="False"/>
+        expression="here/@@route/isAssigned" inline="False"
+        id="++resource++route.js"/>
 </object>
