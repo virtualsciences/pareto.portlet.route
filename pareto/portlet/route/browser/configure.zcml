@@ -9,4 +9,12 @@
     name="route.js"
     />
 
+  <browser:page
+    name="route"
+    for="*"
+    class=".route.RouteView"
+    permission="zope2.View"
+    allowed_attributes="isAssigned"
+    />
+
 </configure>
