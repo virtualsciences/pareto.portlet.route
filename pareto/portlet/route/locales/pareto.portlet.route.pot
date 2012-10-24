@@ -1,0 +1,53 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-10-24 14:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: pareto.portlet.route\n"
+
+#: ./route.py:20
+msgid ""
+msgstr ""
+
+#: ./route.py:49
+msgid "Add Route Portlet"
+msgstr ""
+
+#: ./route.py:19
+msgid "Destination address"
+msgstr ""
+
+#: ./route.py:59
+msgid "Edit Route Portlet"
+msgstr ""
+
+#: ./route.pt:11
+#: ./route.py:34
+msgid "Route"
+msgstr ""
+
+#: ./route.py:50
+msgid "This portlet shows a generated route link to Google maps from any start point to the portlet end point."
+msgstr ""
+
+#. Default: "Plan"
+#: ./route.pt:30
+msgid "label_plan"
+msgstr ""
+
+#: ./route.pt:23
+msgid "title_start_address"
+msgstr ""
+

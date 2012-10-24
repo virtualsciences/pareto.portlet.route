@@ -12,12 +12,13 @@ function draw(daddr, $map) {
                     mapTypeControl: false,
                     mapTypeId: 'terrain'
                 });
-                var marker = new google.maps.Marker({
+                marker_params = {
                     map: map,
-                    icon: '/++theme++arbounie.site/img/geo.png',
-                    shadow:  '/++theme++arbounie.site/img/geo_shade.png',
+                    // icon: '/++theme++arbounie.site/img/geo.png',
+                    // shadow:  '/++theme++arbounie.site/img/geo_shade.png',
                     position: daddr
-                });
+                };
+                var marker = new google.maps.Marker(marker_params);
             } else {
                 daddr = undefined;
             }
