@@ -14,19 +14,23 @@
     
     <dd class="portletItem">
       <form id="addressform" action="http://maps.google.com/maps" target="_blank">
-          <div>
+          <div class="field">
               <input 
                   name="daddr"
                   type="hidden"
                   tal:attributes="value view/data/daddr;" 
                   />
-              <label i18n:translate="title_start_address"></label>
-              <input class="searchField inputLabel"
-                  name="saddr"
-                  type="text"
-                  size="19"
-                  i18n:attributes="value ;"
-                  />
+              <div class="fieldBody">
+                  <input class="searchField inputLabel"
+                      name="saddr"
+                      type="text"
+                      size="30"
+                      placeholder="Start address"
+                      i18n:attributes="placeholder title_start_address"
+                      />
+              </div>
+          </div>  
+          <div class="formControls">
               <input class="searchButton"
                   type="submit"
                   value="Plan"
