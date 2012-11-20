@@ -4,6 +4,9 @@ Changelog
 1.1dev (unreleased)
 -------------------
 
+- Register the locales directory.
+  [maurits]
+
 1.0 - Released oktober 25th 2012
 --------------------------------
 - Initial release
