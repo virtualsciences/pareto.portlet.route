@@ -46,5 +46,5 @@ msgstr "Routebeschrijving"
 #. Default: "Start address"
 #: ./route.pt:24
 msgid "title_start_address"
-msgstr "Start adres"
+msgstr "Startadres"
 
