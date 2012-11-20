@@ -41,7 +41,7 @@ msgstr "Deze portlet toont een gegenereerde route link naar Google maps vanaf om
 #. Default: "Plan"
 #: ./route.pt:34
 msgid "label_plan"
-msgstr "Plan"
+msgstr "Routebeschrijving"
 
 #. Default: "Start address"
 #: ./route.pt:24
