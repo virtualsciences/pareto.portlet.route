@@ -51,7 +51,7 @@ class AddForm(base.AddForm):
                     u" from any start point to the portlet end point.")
 
     def create(self, data):
-        return Assignment()
+        return Assignment(**data)
 
 
 class EditForm(base.EditForm):

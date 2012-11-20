@@ -4,6 +4,9 @@ Changelog
 1.1dev (unreleased)
 -------------------
 
+- Fixed storing data when creating the portlet.
+  [maurits]
+
 - Register the locales directory.
   [maurits]
 
