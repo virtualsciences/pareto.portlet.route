@@ -39,11 +39,12 @@ msgid "This portlet shows a generated route link to Google maps from any start p
 msgstr ""
 
 #. Default: "Plan"
-#: ./route.pt:30
+#: ./route.pt:34
 msgid "label_plan"
 msgstr "Plan"
 
-#: ./route.pt:23
+#. Default: "Start address"
+#: ./route.pt:24
 msgid "title_start_address"
 msgstr "Start address"
 

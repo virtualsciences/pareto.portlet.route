@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-10-24 14:09+0000\n"
+"POT-Creation-Date: 2012-11-20 16:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,11 +43,12 @@ msgid "This portlet shows a generated route link to Google maps from any start p
 msgstr ""
 
 #. Default: "Plan"
-#: ./route.pt:30
+#: ./route.pt:34
 msgid "label_plan"
 msgstr ""
 
-#: ./route.pt:23
+#. Default: "Start address"
+#: ./route.pt:24
 msgid "title_start_address"
 msgstr ""
 
