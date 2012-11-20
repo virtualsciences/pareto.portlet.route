@@ -48,7 +48,7 @@ class AddForm(base.AddForm):
     form_fields = form.Fields(IRoutePortlet)
     label = _(u"Add Route Portlet")
     description = _(u"This portlet shows a generated route link to Google maps"
-                     " from any start point to the portlet end point.")
+                    u" from any start point to the portlet end point.")
 
     def create(self, data):
         return Assignment()
@@ -58,4 +58,4 @@ class EditForm(base.EditForm):
     form_fields = form.Fields(IRoutePortlet)
     label = _(u"Edit Route Portlet")
     description = _(u"This portlet shows a generated route link to Google maps"
-                     " from any start point to the portlet end point.")
+                    u" from any start point to the portlet end point.")
