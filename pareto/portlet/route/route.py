@@ -13,7 +13,7 @@ from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 
 class IRoutePortlet(IPortletDataProvider):
     """ A portlet displaying a (live) route box
-    """ 
+    """
 
     daddr = schema.TextLine(
             title = _(u"Destination address"),
@@ -23,7 +23,7 @@ class IRoutePortlet(IPortletDataProvider):
 
 class Assignment(base.Assignment):
     implements(IRoutePortlet)
-    
+
     daddr = u""
 
     def __init__(self, daddr=u""):
@@ -39,7 +39,7 @@ class Renderer(base.Renderer):
 
     def __init__(self, context, request, view, manager, data):
         base.Renderer.__init__(self, context, request, view, manager, data)
-        
+
     def route_url(self):
         return 'http://maps.google.com/maps?daddr=%s' % self.data.daddr
 

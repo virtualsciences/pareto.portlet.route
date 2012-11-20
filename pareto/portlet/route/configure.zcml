@@ -9,7 +9,7 @@
     <five:registerPackage package="." initialize=".initialize" />
 
     <include package=".browser" />
-  
+
     <genericsetup:registerProfile
        name="default"
        title="Route Portlet"
@@ -35,7 +35,7 @@
          addview=".route.AddForm"
          editview=".route.EditForm"
          />
-     
+
     <!-- File System Directory Views registration -->
     <cmf:registerDirectory name="pareto_portlet_route"/>
 

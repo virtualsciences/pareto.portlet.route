@@ -11,14 +11,14 @@
         <tal:title i18n:translate="">Route</tal:title>
         <span class="portletTopRight"></span>
     </dt>
-    
+
     <dd class="portletItem">
       <form id="addressform" action="http://maps.google.com/maps" target="_blank">
           <div class="field">
-              <input 
+              <input
                   name="daddr"
                   type="hidden"
-                  tal:attributes="value view/data/daddr;" 
+                  tal:attributes="value view/data/daddr;"
                   />
               <div class="fieldBody">
                   <input class="searchField inputLabel"
@@ -29,7 +29,7 @@
                       i18n:attributes="placeholder title_start_address"
                       />
               </div>
-          </div>  
+          </div>
           <div class="formControls">
               <input class="searchButton"
                   type="submit"

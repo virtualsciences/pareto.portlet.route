@@ -8,16 +8,16 @@ from zope.component.interfaces import ComponentLookupError
 
 
 class RouteView(BrowserView):
-    
+
     def isAssigned(self):
         ''' Check for the route portlet in the portlet managers. '''
-        
+
         assigned = False
         portlet_managers = ['plone.leftcolumn', 'plone.rightcolumn']
         try:
             for pm in portlet_managers:
                 manager = getUtility(IPortletManager, pm)
-                assignment_mapping = getMultiAdapter((self.context, manager), 
+                assignment_mapping = getMultiAdapter((self.context, manager),
                                                  IPortletAssignmentMapping)
                 if 'route' in assignment_mapping:
                     assigned = True
