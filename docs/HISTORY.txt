@@ -1,14 +1,19 @@
 Changelog
 =========
 
-1.1dev (unreleased)
+1.2dev (unreleased)
 -------------------
+
+
+1.1 - Released december 4th 2012
+--------------------------------
 
 - Fixed storing data when creating the portlet.
   [maurits]
 
 - Register the locales directory.
   [maurits]
+
 
 1.0 - Released oktober 25th 2012
 --------------------------------
