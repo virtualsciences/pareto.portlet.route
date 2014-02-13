@@ -18,21 +18,21 @@ def setup_product():
     # Load the ZCML configuration for this package and its dependencies
 
     fiveconfigure.debug_mode = True
-    import pareto.portlet.route
-    zcml.load_config('configure.zcml', pareto.portlet.route)
+    import vs.portlet.route
+    zcml.load_config('configure.zcml', vs.portlet.route)
     fiveconfigure.debug_mode = False
 
     # We need to tell the testing framework that these products
     # should be available. This can't happen until after we have loaded
     # the ZCML.
 
-    ztc.installPackage('pareto.portlet.route')
+    ztc.installPackage('vs.portlet.route')
 
 # The order here is important: We first call the deferred function and then
 # let PloneTestCase install it during Plone site setup
 
 setup_product()
-ptc.setupPloneSite(products=['pareto.portlet.route'])
+ptc.setupPloneSite(products=['vs.portlet.route'])
 
 
 class TestCase(ptc.PloneTestCase):

@@ -1,2 +1,2 @@
-This folder holds Filesystem files for pareto.portlet.route.
+This folder holds Filesystem files for vs.portlet.route.
 They act as replacement for the default Plone (or 3rd party products) ones.

@@ -1,6 +1,6 @@
 #! /bin/sh
 
-I18NDOMAIN="pareto.portlet.route"
+I18NDOMAIN="vs.portlet.route"
 
 # Synchronise the templates and scripts with the .pot.
 # All on one line normally:

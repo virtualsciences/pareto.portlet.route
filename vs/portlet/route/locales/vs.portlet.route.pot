@@ -3,48 +3,52 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2012-10-24 13:59+0200\n"
-"Last-Translator: Thijs Jonkman <thijs@pareto.nl>\n"
-"Language-Team: Pareto <info@pareto.nl>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-11-20 16:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: nl\n"
-"Language-Name: Dutch\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: pareto.portlet.route\n"
+"Domain: vs.portlet.route\n"
+
+#: ./route.py:20
+msgid ""
+msgstr ""
 
 #: ./route.py:49
 msgid "Add Route Portlet"
-msgstr "Route portlet toevoegen"
+msgstr ""
 
 #: ./route.py:19
 msgid "Destination address"
-msgstr "Bestemming"
+msgstr ""
 
 #: ./route.py:59
 msgid "Edit Route Portlet"
-msgstr "Route portlet bewerken"
+msgstr ""
 
 #: ./route.pt:11
 #: ./route.py:34
 msgid "Route"
-msgstr "Route"
+msgstr ""
 
 #: ./route.py:50
 msgid "This portlet shows a generated route link to Google maps from any start point to the portlet end point."
-msgstr "Deze portlet toont een gegenereerde route link naar Google maps vanaf om het even welk start naar het portlet bestemming"
+msgstr ""
 
 #. Default: "Plan"
 #: ./route.pt:34
 msgid "label_plan"
-msgstr "Routebeschrijving"
+msgstr ""
 
 #. Default: "Start address"
 #: ./route.pt:24
 msgid "title_start_address"
-msgstr "Startadres"
+msgstr ""
 

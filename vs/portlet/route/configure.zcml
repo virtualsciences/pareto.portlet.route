@@ -5,7 +5,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:plone="http://namespaces.plone.org/plone"
-    i18n_domain="pareto.portlet.route">
+    i18n_domain="vs.portlet.route">
 
     <five:registerPackage package="." initialize=".initialize" />
     <i18n:registerTranslations directory="locales" />
@@ -28,7 +28,7 @@
        -->
 
      <plone:portlet
-         name="pareto.portlet.route.RoutePortlet"
+         name="vs.portlet.route.RoutePortlet"
          interface=".route.IRoutePortlet"
          assignment=".route.Assignment"
          view_permission="zope2.View"
@@ -39,6 +39,6 @@
          />
 
     <!-- File System Directory Views registration -->
-    <cmf:registerDirectory name="pareto_portlet_route"/>
+    <cmf:registerDirectory name="vs_portlet_route"/>
 
 </configure>

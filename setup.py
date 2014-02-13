@@ -3,7 +3,7 @@ import os
 
 version = '1.1'
 
-setup(name='pareto.portlet.route',
+setup(name='vs.portlet.route',
       version=version,
       description="",
       long_description=open("README.txt").read() + "\n" +
@@ -20,7 +20,7 @@ setup(name='pareto.portlet.route',
       url='http://svn.plone.org/svn/collective/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['pareto', 'pareto.portlet'],
+      namespace_packages=['vs', 'vs.portlet'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

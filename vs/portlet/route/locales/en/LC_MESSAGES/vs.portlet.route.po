@@ -3,11 +3,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-11-20 16:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: 2012-10-24 13:59+0200\n"
+"Last-Translator: Thijs Jonkman <thijs@vs.nl>\n"
+"Language-Team: Virtual Sciences <info@virtualsciences.nl>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,11 +15,7 @@ msgstr ""
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: pareto.portlet.route\n"
-
-#: ./route.py:20
-msgid ""
-msgstr ""
+"Domain: vs.portlet.route\n"
 
 #: ./route.py:49
 msgid "Add Route Portlet"
@@ -45,10 +41,10 @@ msgstr ""
 #. Default: "Plan"
 #: ./route.pt:34
 msgid "label_plan"
-msgstr ""
+msgstr "Plan"
 
 #. Default: "Start address"
 #: ./route.pt:24
 msgid "title_start_address"
-msgstr ""
+msgstr "Start address"
 

@@ -6,7 +6,7 @@ from zope.interface import implements
 from plone.app.portlets.portlets import base
 from plone.portlets.interfaces import IPortletDataProvider
 
-from pareto.portlet.route import RoutePortletMessageFactory as _
+from vs.portlet.route import RoutePortletMessageFactory as _
 
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 

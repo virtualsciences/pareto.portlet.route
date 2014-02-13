@@ -1,5 +1,5 @@
 from zope.i18nmessageid import MessageFactory
-RoutePortletMessageFactory = MessageFactory('pareto.portlet.route')
+RoutePortletMessageFactory = MessageFactory('vs.portlet.route')
 
 
 def initialize(context):

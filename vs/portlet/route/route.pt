@@ -4,7 +4,7 @@
       tal:omit-tag="">
 <dl class="portlet portletRoute"
     tal:define="saddr request/saddr|nothing"
-    i18n:domain="pareto.portlet.route">
+    i18n:domain="vs.portlet.route">
 
     <dt class="portletHeader">
         <span class="portletTopLeft"></span>

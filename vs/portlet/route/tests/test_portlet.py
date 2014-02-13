@@ -8,9 +8,9 @@ from plone.portlets.interfaces import IPortletRenderer
 
 from plone.app.portlets.storage import PortletAssignmentMapping
 
-from pareto.portlet.route import route
+from vs.portlet.route import route
 
-from pareto.portlet.route.tests.base import TestCase
+from vs.portlet.route.tests.base import TestCase
 
 
 class TestPortlet(TestCase):
@@ -21,9 +21,9 @@ class TestPortlet(TestCase):
     def test_portlet_type_registered(self):
         portlet = getUtility(
             IPortletType,
-            name='pareto.portlet.route.RoutePortlet')
+            name='vs.portlet.route.RoutePortlet')
         self.assertEquals(portlet.addview,
-                          'pareto.portlet.route.RoutePortlet')
+                          'vs.portlet.route.RoutePortlet')
 
     def test_interfaces(self):
         # TODO: Pass any keyword arguments to the Assignment constructor
@@ -34,7 +34,7 @@ class TestPortlet(TestCase):
     def test_invoke_add_view(self):
         portlet = getUtility(
             IPortletType,
-            name='pareto.portlet.route.RoutePortlet')
+            name='vs.portlet.route.RoutePortlet')
         mapping = self.portal.restrictedTraverse(
             '++contextportlets++plone.leftcolumn')
         for m in mapping.keys():
